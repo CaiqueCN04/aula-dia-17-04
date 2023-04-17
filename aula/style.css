@@ -1,0 +1,69 @@
+body{
+    background-image: linear-gradient(to right top, rgb(108, 206, 206), black);
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+}
+
+#menu{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 4px;
+}
+
+#menu ul li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#menu ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    padding: 4px;
+    
+}
+
+h1,h2,h3{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(27, 100, 211, 0.493);
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    color:aliceblue
+    
+}
+
+#login{
+    width: 100px;
+    height: 75px;
+    background-color: rgb(177, 209, 209);
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 47%;
+    border-radius: 18px;
+}
